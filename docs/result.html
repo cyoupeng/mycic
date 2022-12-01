@@ -11,7 +11,7 @@
   <script>var _FILE_UPLOAD = true;
     var _REVISION_ = 10.03;
   </script>
-
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
   <link href="bootstrap.min.css" rel="stylesheet" />
   <link href="bootstrap-theme.min.css" rel="stylesheet" />
   <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
@@ -319,17 +319,18 @@
                             <span data-ng-if="app.docRequired =='N'" style="margin-left:45px"></span>
                             <label class="sr-only" for="radio{{app.fileNum}}">Selected for File Number
                               {{app.fileNum}}</label>
-                            <span data-ng-if="!app.eoiCase">
+                            <!-- <span data-ng-if="!app.eoiCase">
                               <input id="radio{{app.fileNum}}" name="selected" title="aoda.main.select.btn"
                                 style="margin-right:10px" data-ng-model="selectedCase.caseId" data-ng-value="app.caseId"
                                 type="radio" />
-                            </span>
+                            </span> -->
                             <span data-ng-if="app.eoiCase && app.editable">
                               <input id="radio{{app.fileNum}}" name="selected" title="aoda.main.select.btn"
                                 style="margin-right:10px" data-ng-model="selectedCase.caseId" data-ng-value="app.caseId"
                                 type="radio" />
                             </span>
-                            <span data-ng-if="app.eoiCase && !app.editable">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                            <span >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                            <!-- <span data-ng-if="app.eoiCase && !app.editable">&nbsp;&nbsp;&nbsp;&nbsp;</span> -->
 
                             <a data-ng-if="!app.eoiCase"
                               href="/oinp_enu/dynamicform/application/edit2/{{app.caseId}}">{{app.fileNum}}</a>
@@ -372,7 +373,7 @@
                                 class="glyphicon glyphicon-alert btn btn-default" style="color:red"
                                 aria-hidden="true"><span class="sr-only">aoda.doc.request.btn.txt</span></button></a>
                             <a href="/oinp_enu/dynamicform/appform/docRequest/{{app.caseId}}"
-                              data-ng-if="app.docRequired =='Y' && app.iconEnable=='N'"><button
+                              ><button
                                 class="glyphicon glyphicon-file btn btn-default" style="color:#337ab7"
                                 aria-hidden="true"><span class="sr-only">aoda.doc.request.btn.txt</span></button></a>
                             <a href="/oinp_enu/dynamicform/appform/docRequest/{{app.caseId}}"
@@ -411,7 +412,7 @@
                           <td class="col-xs-2">Decision In Progress</td>
                           <td class="col-xs-1">40</td>
                           <td class="col-xs-2"> <button ng-click="withdraw(app)" class="btn btn-default"
-                              ng-if="app.withdrawFlag == 'Y'">Withdraw</button>
+                              >Withdraw</button>
 
                           </td>
                           <!-- <td class="col-xs-3">{{app.streamDesc}}</td>
