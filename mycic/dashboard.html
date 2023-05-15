@@ -1,0 +1,1257 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+	wet-boew.github.io/wet-boew/License-eng.txt / wet-boew.github.io/wet-boew/Licence-fra.txt -->
+    <title>
+      Application/profile details - Immigration, Refugees and Citizenship Canada
+    </title>
+    <link rel="shortcut icon" href="/mycic/resource/gcweb/assets/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta
+      name="dcterms.creator"
+      content="<spring:message code='text.governmentOfCanadaCICIMTB'/>"
+    />
+    <meta
+      name="dcterms.title"
+      content="Immigration, Refugees and Citizenship Canada"
+    />
+    <meta name="dcterms.issued" title="W3CDTF" content="2013-05-07" />
+    <meta name="dcterms.modified" title="W3CDTF" content="2023-04-14" />
+    <meta name="dcterms.subject" title="scheme" content="" />
+    <meta name="dcterms.language" title="ISO639-2" content="eng" />
+    <link
+      rel="stylesheet"
+      href="./resource/gcweb/css/A.wet-boew.min.css.pagespeed.cf.1B2M2Y8Asg.css"
+    />
+    <link rel="stylesheet" href="./resource/common.css" />
+    <!-- Start - Custom CSS -->
+    <!-- End - Custom CSS -->
+    <!-- Start - Scripts -->
+    <script src="./resource/wet-boew/js/4.0.10/jquery-2.1.0.min.js.pagespeed.jm.oXInz6x9TT.js"></script>
+    <script src="./resource/wet-boew/js/4.0.10/jquery-ui-1.10.4.min.js.pagespeed.jm.frpMaULqmy.js"></script>
+    <!-- End - Scripts -->
+  </head>
+  <body>
+    <!-- *** BUILD DATE/ID: 2023-04-14-deef88ed *** -->
+    <div id="wb-body">
+      <!-- LANGUAGE LINK BEGINS  -->
+      <!-- LANGUAGE LINK ENDS  -->
+      <!-- Used for localized and centralized text keys returned from CMS
+   03-JULY-2014
+   @author Kordestan Saadi & Marc Miron  -->
+      <script>
+        MyCIC = (function () {
+          return {
+            locale: (function () {
+              return {
+                resources: (function () {
+                  var items = {};
+                  return {
+                    get: function (key) {
+                      if (items.hasOwnProperty(key)) {
+                        return items[key];
+                      } else {
+                        return key;
+                      }
+                    },
+                    add: function (key, value) {
+                      items[key] = value;
+                    },
+                  };
+                })(),
+              };
+            })(),
+          };
+        })();
+        MyCIC.locale.resources.add("btn.dialogContinue", "Continue");
+        MyCIC.locale.resources.add("btn.dialogCancel", "Cancel");
+        MyCIC.locale.resources.add("btn.dialogLogout", "Sign out");
+        MyCIC.locale.resources.add(
+          "txt.dialogText",
+          "If you continue, you will still be&nbsp;signed into&nbsp;your account&nbsp;and your privacy will no longer be protected.<br />If you have received a personal document checklist, you should print it for future reference. It outlines the steps you need to apply.<p>&nbsp;</p>"
+        );
+        MyCIC.locale.resources.add("txt.close", "text.close");
+        MyCIC.locale.resources.add("label.expanded", "Expanded");
+        MyCIC.locale.resources.add("label.collapsed", "Collapsed");
+      </script>
+      <ul id="wb-tphp">
+        <li class="wb-slc">
+          <a class="wb-sl" href="#wb-cont">Skip to main content</a>
+        </li>
+        <li class="wb-slc visible-sm visible-md visible-lg">
+          <a class="wb-sl" href="#wb-info"
+            >Skip to &quot;About this site&quot;</a
+          >
+        </li>
+      </ul>
+      <!-- Start - Header -->
+      <header role="banner">
+        <div id="wb-bnr" class="container">
+          <div class="row">
+            <section
+              id="wb-lng"
+              class="col-xs-3 col-sm-12 pull-right text-right"
+            >
+              <h2 class="wb-inv">Language selection</h2>
+              <ul class="list-inline mrgn-bttm-0">
+                <li>
+                  <a
+                    hreflang="fr"
+                    class="languageSelector"
+                    lang="fr"
+                    href="/mycic/dashboard?&amp;lang=fr"
+                    >Fran&ccedil;ais</a
+                  >
+                </li>
+              </ul>
+            </section>
+            <div
+              class="brand col-xs-9 col-sm-5 col-md-4"
+              property="publisher"
+              resource="#wb-publisher"
+              typeof="GovernmentOrganization"
+            >
+              <a href="https://www.canada.ca/en.html" property="url"
+                ><img
+                  src="./resource/gcweb/assets/sig-blk-en.svg"
+                  alt="Government of Canada"
+                  property="logo"
+                /><span class="wb-inv">
+                  / <span lang="fr">Gouvernement du Canada</span></span
+                ></a
+              >
+              <meta property="name" content="Government of Canada" />
+              <meta property="areaServed" typeof="Country" content="Canada" />
+              <link
+                property="logo"
+                href="./resource/gcweb/assets/wmms-blk.svg"
+              />
+            </div>
+          </div>
+        </div>
+        <nav
+          role="navigation"
+          class="gcweb-menu"
+          typeof="SiteNavigationElement"
+        >
+          <div class="container">
+            <h2 class="wb-inv">Menu</h2>
+            <button type="button" aria-haspopup="true" aria-expanded="false">
+              <span class="wb-inv">Main </span>
+              Menu
+              <span class="expicon glyphicon glyphicon-chevron-down"></span>
+            </button>
+            <ul
+              role="menu"
+              aria-orientation="vertical"
+              data-ajax-replace="/mycic/resource/gcweb/ajax/sitemenu-mycic-en.html"
+            >
+              <li role="presentation">
+                <a
+                  role="menuitem"
+                  href="/mycic/exit?logout=true&amp;uri=https://www.canada.ca/en/services/jobs.html"
+                  >Jobs and the workplace</a
+                >
+              </li>
+              <li role="presentation">
+                <a
+                  role="menuitem"
+                  href="/mycic/exit?logout=true&amp;uri=https://www.canada.ca/en/services/immigration-citizenship.html"
+                  >Immigration and citizenship</a
+                >
+              </li>
+              <li role="presentation">
+                <a
+                  role="menuitem"
+                  href="/mycic/exit?logout=true&amp;uri=https://travel.gc.ca/"
+                  >Travel and tourism</a
+                >
+              </li>
+              <li role="presentation">
+                <a
+                  role="menuitem"
+                  href="/mycic/exit?logout=true&amp;uri=https://www.canada.ca/en/services/business.html"
+                  >Business and industry</a
+                >
+              </li>
+              <li role="presentation">
+                <a
+                  role="menuitem"
+                  href="/mycic/exit?logout=true&amp;uri=https://www.canada.ca/en/services/benefits.html"
+                  >Benefits</a
+                >
+              </li>
+              <li role="presentation">
+                <a
+                  role="menuitem"
+                  href="/mycic/exit?logout=true&amp;uri=https://www.canada.ca/en/services/health.html"
+                  >Health</a
+                >
+              </li>
+              <li role="presentation">
+                <a
+                  role="menuitem"
+                  href="/mycic/exit?logout=true&amp;uri=https://www.canada.ca/en/services/taxes.html"
+                  >Taxes</a
+                >
+              </li>
+              <li role="presentation">
+                <a
+                  role="menuitem"
+                  href="/mycic/exit?logout=true&amp;uri=https://www.canada.ca/en/services/environment.html"
+                  >Environment and natural resources</a
+                >
+              </li>
+              <li role="presentation">
+                <a
+                  role="menuitem"
+                  href="/mycic/exit?logout=true&amp;uri=https://www.canada.ca/en/services/defence.html"
+                  >National security and defence</a
+                >
+              </li>
+              <li role="presentation">
+                <a
+                  role="menuitem"
+                  href="/mycic/exit?logout=true&amp;uri=https://www.canada.ca/en/services/culture.html"
+                  >Culture, history and sport</a
+                >
+              </li>
+              <li role="presentation">
+                <a
+                  role="menuitem"
+                  href="/mycic/exit?logout=true&amp;uri=https://www.canada.ca/en/services/policing.html"
+                  >Policing, justice and emergencies</a
+                >
+              </li>
+              <li role="presentation">
+                <a
+                  role="menuitem"
+                  href="/mycic/exit?logout=true&amp;uri=https://www.canada.ca/en/services/transport.html"
+                  >Transport and infrastructure</a
+                >
+              </li>
+              <li role="presentation">
+                <a
+                  role="menuitem"
+                  href="/mycic/exit?logout=true&amp;uri=https://international.gc.ca/world-monde/index.aspx?lang=eng"
+                  >Canada and the world</a
+                >
+              </li>
+              <li role="presentation">
+                <a
+                  role="menuitem"
+                  href="/mycic/exit?logout=true&amp;uri=https://www.canada.ca/en/services/finance.html"
+                  >Money and finances</a
+                >
+              </li>
+              <li role="presentation">
+                <a
+                  role="menuitem"
+                  href="/mycic/exit?logout=true&amp;uri=https://www.canada.ca/en/services/science.html"
+                  >Science and innovation</a
+                >
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <!-- End - Site menu -->
+        <!-- Start - Breadcrumb -->
+        <nav role="navigation" id="wb-bc" property="breadcrumb">
+          <h2>You are here:</h2>
+          <div class="container">
+            <ol class="breadcrumb">
+              <li>
+                <a
+                  href="/mycic/exit?logout=true&amp;uri=http://www.cic.gc.ca/english/index.asp"
+                  >Home</a
+                >
+              </li>
+              <li><a>Your account</a></li>
+            </ol>
+          </div>
+        </nav>
+        <!-- End - Breadcrumb -->
+        <section id="wb-so">
+          <h2 class="wb-inv">Sign-on information</h2>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12 text-right">
+                <span class="visible-xs text-right"
+                  >Signed in as Miao Shan</span
+                >
+                <span class="mrgn-rght-lg hidden-xs inline">
+                  Signed in as Miao Shan
+                </span>
+                <a href="/mycic/home">Account home</a
+                ><span class="mrgn-lft-sm mrgn-rght-sm">|</span>
+                <a href="/mycic/profile">Account profile</a
+                ><span class="mrgn-lft-sm mrgn-rght-sm">|</span>
+                <a href="/mycic/faq">Help</a>
+                <span class="mrgn-lft-sm mrgn-rght-sm">|</span>
+                <a href="/mycic/logout?caller=/dashboard&amp;exittype=logout"
+                  >Logout</a
+                >
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="clearfix"></div>
+      </header>
+      <!-- End - Header -->
+      <main role="main" class="container" property="mainContentOfPage">
+        <!-- Start - Main content -->
+        <input type="hidden" name="language" id="language" value="en" />
+        <script>
+          var statusDashboardActive = true;
+          var messageDashboardActive = true;
+          var statusDashboardLoadUrl = "dashboard/status/116881340";
+          var messageLoadUrl = "dashboard/messages/116881340/";
+          var ajaxConsentUpdateUrl = "dashboard/consentUpdate/116881340/";
+        </script>
+        <script>
+          //<![CDATA[
+          function updateConsent() {
+            var spinner = new ProgressSpinner();
+            spinner.start();
+            var consentLovId;
+            var applicantId;
+            if (document.getElementById("agree").checked) {
+              consentLovId = document.getElementById("agree").value;
+            } else if (document.getElementById("disAgree").checked) {
+              consentLovId = document.getElementById("disAgree").value;
+            }
+            var consentUpdateUrl = ajaxConsentUpdateUrl + consentLovId;
+            $.ajax({
+              type: "POST",
+              url: consentUpdateUrl,
+              dataType: "json",
+              contentType: "application/json",
+              data: {
+                applicantId: "${applicantId}",
+                consentLovId: "${consentLovId}",
+              },
+              success: function (response) {
+                spinner.stop();
+                console.log(response.hasFault);
+                if (response.hasFault == true) {
+                  document.getElementById("consentResponse").innerHTML =
+                    errorConsentResponse;
+                  return false;
+                } else {
+                  document.getElementById("consentResponse").innerHTML =
+                    successfulConsentResponse;
+                  document.getElementById(
+                    "updateConsentButton"
+                  ).disabled = true;
+                  return true;
+                }
+              },
+              error: function (e) {
+                spinner.stop();
+                document.getElementById("consentResponse").innerHTML =
+                  errorConsentResponse;
+                return false;
+              },
+            });
+            return false;
+          }
+          function handleRadioButtonClick(consent) {
+            if (
+              consent === "false" &&
+              document.getElementById("disAgree").checked
+            ) {
+              document.getElementById("updateConsentButton").disabled = true;
+            } else if (
+              consent === "true" &&
+              document.getElementById("agree").checked
+            ) {
+              document.getElementById("updateConsentButton").disabled = true;
+            } else {
+              document.getElementById("updateConsentButton").disabled = false;
+            }
+            if (document.getElementById("agree").checked) {
+              helpModal("agreeConsent");
+            }
+            if (document.getElementById("disAgree").checked) {
+              helpModal("disAgreeConsent");
+            }
+          }
+          //]]>
+        </script>
+        <h1 id="wb-cont">Application status and messages</h1>
+        <div>
+          <span
+            >Check the status, review the details and read messages for your
+            application.</span
+          >
+          <form
+            id="view_checklist_form"
+            class="display-inline-block"
+            action="/mycic/dashboard"
+            method="post"
+          >
+            <input
+              type="hidden"
+              name="eappUrl"
+              id="eappUrl"
+              value="https://onlineservices-servicesenligne.cic.gc.ca/eapp/launchEapp.do?lang=en&amp;appTypeID=7403&amp;referenceNumber=152786040&amp;aRefNum=116881340&amp;viewUpdate=false"
+            />
+            <input
+              type="submit"
+              class="btn btn-link"
+              value="View submitted application or upload documents"
+              name="_viewChecklist"
+              id="_viewChecklist"
+            />
+          </form>
+        </div>
+        <div class="row">
+          <div>
+            <div class="col-sm-6">
+              <section class="panel panel-default dashboard-panel">
+                <div class="panel-heading">
+                  <h2 class="panel-title">Application status</h2>
+                </div>
+                <div class="panel-body">
+                  <p>
+                    We are processing your application. We will send you a
+                    message when there is an update or if we need more
+                    information from you.
+                  </p>
+                  <p></p>
+                  <p>
+                    <strong>Latest update</strong>:<br /><strong
+                      >Review of medical results -
+                      February&nbsp;22,&nbsp;2023</strong
+                    >:You passed the medical exam.
+                  </p>
+                </div>
+              </section>
+            </div>
+          </div>
+          <div class="hidden-xs col-sm-6">
+            <section class="panel panel-default dashboard-panel">
+              <div class="panel-heading">
+                <h2 class="panel-title">Applicant information</h2>
+              </div>
+              <div class="panel-body my-cic-word-break">
+                <ul class="list-unstyled">
+                  <li><strong>Principal Applicant:</strong> Miao Shan</li>
+                  <li>
+                    <strong>Unique Client Identifier (UCI):</strong> 1123808861
+                  </li>
+                  <li><strong>Application number:</strong> W307755777</li>
+                  <li>
+                    <strong>Date Received:</strong> December&nbsp;6,&nbsp;2022
+                  </li>
+                  <li>
+                    <strong>Biometrics:</strong>
+                    <ul class="list-unstyled mrgn-lft-lg">
+                      <li>
+                        <strong>Biometrics Number:</strong> 00039220230104100532
+                      </li>
+                      <li>
+                        <strong>Date of Biometrics Enrolment:</strong>
+                        January&nbsp;4,&nbsp;2023
+                      </li>
+                      <li>
+                        <strong>Expiry Date:</strong> January&nbsp;4,&nbsp;2033
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </section>
+          </div>
+        </div>
+        <div class="brdr-bttm"></div>
+        <h2>Details about your application status</h2>
+        <p>
+          When we get your application, there are a series of steps it may go
+          through before we make a decision. Use the following table to find out
+          the current status of each application step.
+        </p>
+        <div>
+          <img
+            src="data:image/webp;base64,UklGRngDAABXRUJQVlA4TGwDAAAvHUAHEO8GR5IkSUpU9e4CGiL//yJaW1UGxycguY3kSFJmjl3v/v/GvU5PRgTsSLLjNg1A558icP7x3TaM99aRbbtpoy9jmWnW/S+rHTLXjSQ7Ac0eGAQhAKOZBgCASTPq7H+OmzQSRKLV8m6TaAQBAA8YvEwGJqC6mjiTRiZG2+vJoCNZWPUEokYKh+JOeH2THhIqCUQALxMPuKbtHjsCr2YxplEFk5vVqE6uGgJmqyru+q3KizEI1m5xC2hxx7g9YHQl8KwaEcwep8vhcY3//v8dEAkskn4SN5OpCQsrPJw9j5tNYtw/kwxcNBQtMxmsqhkDTn8lbqyqA6N59h/d0DUgel3Dgcc99tpE4ygYrSoY77gIKJgVI4Je3MfMj6PiwWT2NGAmfR8PAd8zy+6xF4aZ5FWpjoM40BsVR53AafaMAWYLIK8K4Bb1IO71qj7rnkZNoIEGAmDwWlW+j51BAiwuq9qZqMl3nsWAIRUsYNA9ttutxeyps+UkrEMAgAEAAACAAydQQKnX9z3A/5n1AxXU7ind06qGrxq/7imgdk9fNejM+gLtng7cu+f4zJLuqc/z9Xdmdd2zvl3vj8fp0oCcWQTk4/60Ypw+Xp70+fW6PE4XAfb191bAsXt6g0Tbto29ubFt27Zt2zar1MZXu/lTK7UR51dt232a7+LLG5wb0f8JQOSiw1sskdSaeZXXdpzdU2zBZrrp/PjiqAmAgSMTsKhsnO/3p9o8AbA8egI/8m8C4JwOzdGJ8hCHwOt3xLd7TUJCJ+/Z0Byb8Pi/HlZYi60QAEzdt2UQ+ipGXf7i86VIcR9Lvoo/JMGy06d2Iko2xMjWvJ0PL4TQkivz24DvkSInQJZ06TIHzmGfBEPH+VZEyYYYp++yLD3Dd5GcGn6tLNSgE1LdZMEC53xb5FrV3COl/H0EXX+VLOYkACz5OvszTMO45sWDOJrug7ABiTvlHUjs+PalAQUiar36hPAZ8mqKjRcu7hX5zNcStJ+uoxCirccKJgAaFQkEeP2dZrBp1L4EIHaujaD3eDUpqHQEWpH43QdCnSITt3vizi3ilS75KozvM/kfLYz3iRs3yQd+yD+neYX/fqhWwBdzEYCZHaVh+xMFwMw3zz8zijfxGEbdxPpsZwSQ/lyhzpKA0vWjYs1CgH6mEQI="
+            class="left"
+          /><strong style="padding: 0.3em">Review of eligibility</strong
+          ><a
+            class="wb-lbx wb-lbx-inited"
+            title="Help - Review of eligibility"
+            onclick="helpModal('helpEEStatusEligibility')"
+            href="javascript:void(0)"
+            ><span
+              class="fa fa-lg fa-question-circle"
+              aria-hidden="true"
+            ></span>
+            <span class="wb-inv">Help - Review of eligibility</span></a
+          >
+          <section
+            id="helpEEStatusEligibility"
+            class="mfp-hide modal-dialog modal-content overlay-def"
+          >
+            <header class="modal-header">
+              <h3 class="modal-title">Review of eligibility</h3>
+            </header>
+            <div class="modal-body">
+              <p>
+                We will tell you when we are in the process of reviewing your
+                eligibility. We review your complete application to make sure
+                that you are eligible for the program you applied for.
+                &nbsp;When we have reviewed your eligibility, we will send you a
+                message.&nbsp;
+              </p>
+            </div>
+          </section>
+          <ul style="list-style-type: circle">
+            <li>
+              We are reviewing whether you meet the eligibility requirements.
+            </li>
+          </ul>
+        </div>
+        <div class="clearfix"></div>
+        <div>
+          <img
+            src="data:image/webp;base64,UklGRiYDAABXRUJQVlA4TBkDAAAvHUAHEP8FoZEkR1Kse4/g+XN0M11Fw0EkSYpUS88K3r9H2p0uB5EkKVLdwrOC96+QaafLdWTbafNAMrPD0H8vKSKTL2aUSXoBYKqoilVJJAhVAZIIQFVtowIcAwAbHdDVoQBVpJzokvI0Ye9glQACBFS1VSIACBBA8AVtTAxoTnlrLwYKMGDw0KsE4Wze/7+fA1l1KCSN92o8iaamGhe6KoOA9MCAOqnWWNU9x+7n806ye0g4CSfpogLiY/712dt37T8Dyh4BQRCCKzBJ8n0qpY9dFdGiMFQxFZckmcoDWuADBgjW2GD9/99JYRWIWmf1qeRFSyQJAAt8DW9OAZAkXSVIoqpIu0nStZdOpQXjmvs+lVUFqL1XlOjgK0k5lV+xmlP69/v1AYL67/dT4FXFxhTCVLnKUBXAAKt2TkWgqr6LWSoDEBBGTaMGDKgIjQywSEQAgz8Q4MDzeN5mQF+jm2t0OHuzR9u6t9thf/bGoHi/Hzdfr4s8awKIz97eb7fD+eytPtp2OXuLzt7e9xztx+NkwXD29v9+X7dnb4FCwrZt59e82f0z/tm2bU7NXrOa7TXb9pbtmn/7cL9X+wbP/Sui/xPAFJOS8T93ff6yX1vEvqOfjuz8fHy3q0Lzwx4iqt5GRN0Xe4jSD/YQkdXAsb0hTmePMKPLRIs2Uwm9LcwFbKsEH6MTcoHCtz0lpqqeF+DGxHNDGJd6qkS/xHXBqXxnqaHZBUwvACNGZw8/Xi6bLRn8zjBpZK7ke6n8G5oxbe3lxymE1ra3ZbFJI20F31vhD8YxwSaNLQP8WIWlY0PDf9mkkbdju2XBsvzkfvz+OTUPjBpr7z8gAlGk1Jy4vqqLHyRV3ij0ZGKpWz3CRD35lUJ3PbIbizWddfK5CuDKaRSFa4jqyWl6b09hj565XT+k5J+xoW/dyf5r3WE3L6x5/OSUdUyu4Bz2Xrp3/t3dzWeWPT1c1kEtcgA8nt9YfWL9y02+H2qYWQWX9zg4BryuYMtdVF5xSlMY0BrIhK949m89d25rtOib3YQDX3u0LoLx0zu0pgMAAA=="
+            class="left"
+          /><strong style="padding: 0.3em">Review of medical results</strong
+          ><a
+            class="wb-lbx wb-lbx-inited"
+            title="Help - Review of medical results"
+            onclick="helpModal('helpmedicalstatus')"
+            href="javascript:void(0)"
+            ><span
+              class="fa fa-lg fa-question-circle"
+              aria-hidden="true"
+            ></span>
+            <span class="wb-inv">Help - Review of medical results</span></a
+          >
+          <section
+            id="helpmedicalstatus"
+            class="mfp-hide modal-dialog modal-content overlay-def"
+          >
+            <header class="modal-header">
+              <h3 class="modal-title">Review of medical results</h3>
+            </header>
+            <div class="modal-body">
+              <p>
+                If you need to have a medical exam you will get a message in
+                your account with details.&nbsp;
+              </p>
+              <p>
+                Once we receive the results of your medical exam, we will review
+                them and tell you if you passed. If you did not pass it could be
+                because:&nbsp;
+              </p>
+              <ul>
+                <li>you may be a risk to public health or public safety, or</li>
+                <li>
+                  your health issues could place too much demand on health or
+                  social services.
+                </li>
+              </ul>
+              <p>
+                <a
+                  href="https://www.cic.gc.ca/english/information/medical/index.asp"
+                  >Find out more about medical exams.</a
+                >
+              </p>
+            </div>
+          </section>
+          <ul style="list-style-type: circle">
+            <li>February&nbsp;22,&nbsp;2023 You passed the medical exam.</li>
+          </ul>
+        </div>
+        <div class="clearfix"></div>
+        <div>
+          <img
+            src="data:image/webp;base64,UklGRlgBAABXRUJQVlA4TEwBAAAvHUAHECfCqI0kR8Wf6/3ydaLBuG0jR+q/1/vlc2LctpEj9d/r/fI5MQgAsMx42+xfzLYVAHjflyZhk/zb/iSsbQCs27RtYxKtLQPwQPL/v/M8DwPgtqztv63cFrY928r//8NtX1vlOA4HwIBgu5DkABSgAASIpNv2ui16nke2DZLs53nGktjv+7Yksm0J4LeVkqz//6EkcRuzTXye5wWYbTzQtnXbom3XNgi8wA/wSQDwAQ8gABjObds2lpP55T5m2/iQ2+//UtW5N/+N6P8E0Ev6ehP2KCgQmEIwyYvPgW6CORNILwG0iVkw/JziBoywaXHNEFFmB0ZqAX6NyIBn27bdJKLsGtsGc4DGTYfu63tgRUxLoHzEM1pXPOWC55wdVVXVvLwtif5tnm3bQ2m5EwCMpVFEURQlJu/h09ySaJ93gMQ6R6uKV6IcyQ=="
+            class="left"
+          /><strong style="padding: 0.3em"
+            >Review of additional documents</strong
+          ><a
+            class="wb-lbx wb-lbx-inited"
+            title="Help - Review of additional documents"
+            onclick="helpModal('helpdocstatus')"
+            href="javascript:void(0)"
+            ><span
+              class="fa fa-lg fa-question-circle"
+              aria-hidden="true"
+            ></span>
+            <span class="wb-inv">Help - Review of additional documents</span></a
+          >
+          <section
+            id="helpdocstatus"
+            class="mfp-hide modal-dialog modal-content overlay-def"
+          >
+            <header class="modal-header">
+              <h3 class="modal-title">Review of additional documents</h3>
+            </header>
+            <div class="modal-body">
+              <p>
+                In some cases we will need additional documents from you to
+                process your application. &nbsp;If we do, you will receive a
+                message in your account. &nbsp;Once we receive the documents, we
+                will tell you when we are reviewing them.&nbsp;
+              </p>
+            </div>
+          </section>
+          <ul style="list-style-type: circle">
+            <li>
+              We do not need additional documents
+            </li>
+          </ul>
+        </div>
+        <div class="clearfix"></div>
+        <div>
+          <img
+            src="data:image/webp;base64,UklGRrYBAABXRUJQVlA4TKkBAAAvHUAHEB8DoZEkR1Lwp3vmzcxW0oDYNpIjifmne+bNzJYgto3kSGL+6Z55M7MlB5IkmdZ0D9573+b9z2erA/b7+xvbAFaqbBsrwbcZCACVIPyr2GaVg9u80r030bv33v///yfVtxJ++J1zZv///1X98dvmlbZ90cERcBDt8zwH6JzjFVFV/f//t9V/Wx95zrlV9jxPVddti+d5HtvGVcBxgn5/f0dogG2x7Yfvtqb63HsTvXMOzzn76vx6vSbf77e99/L//39777VtqLx6P8/Toff39+eIz+ezroBvFWBlEBwAAEC3te2Y8oyRbTfMrslunO3r/I/iZfwd0f8JkD+/faTzK3afeD7y1/8CMO1tGfXE27xmw1v4Arht9iaNh7Vil2i7Z3sdwuOpVFwaUqmJgMjxG6+nVs03QEkqwGVs7AP4GLVZBHhefwXIbaFu2ywpvKPmFzSrbvp86By4ivp5rPZI0375oFW8PMy0ZLL6dNA0XDSudNxhvo5oGvosO9ewnersS0rbPZbFHau5IneJgc+v+BiSvbplwaFQ3xRHB3GfPLMd9PCPBAA="
+            class="left"
+          /><strong style="padding: 0.3em">Interview</strong
+          ><a
+            class="wb-lbx wb-lbx-inited"
+            title="Help - Interview"
+            onclick="helpModal('helpinterviewstatus')"
+            href="javascript:void(0)"
+            ><span
+              class="fa fa-lg fa-question-circle"
+              aria-hidden="true"
+            ></span>
+            <span class="wb-inv">Help - Interview</span></a
+          >
+          <section
+            id="helpinterviewstatus"
+            class="mfp-hide modal-dialog modal-content overlay-def"
+          >
+            <header class="modal-header">
+              <h3 class="modal-title">Interview</h3>
+            </header>
+            <div class="modal-body">
+              <p>
+                In some cases we may need to schedule an interview. If you need
+                to have an interview, or if we reschedule or cancel an
+                interview, there will be a message in your account.&nbsp;
+              </p>
+              <p>&nbsp;</p>
+            </div>
+          </section>
+          <ul style="list-style-type: circle">
+            <li>
+              You do not need an interview. We will send you a message if this
+              changes.
+            </li>
+          </ul>
+        </div>
+        <div class="clearfix"></div>
+        <div>
+          <img
+            src="data:image/webp;base64,UklGRmwDAABXRUJQVlA4TF8DAAAvHUAHEPVIrq3t2J7eXvy2+ca2bfy2bdu2bdu2OXo/RPNnnHUVkCZYhZN39BfwVxCPEwGBAQCCyZ5t27Zt27Zt27Zt27Zt27bdBJAX4RaggtHd42I1N81tGmxyMx/c3RtppLCbLG80S/1R/wD1KwAQLhVJ5uYNaOxZRqbL1JLX0rx8ny5rFqN0oTklWbC5/nqEzjj8OqCCSe4aoB8v1qfJzUEsgoQa7J2upRTLJNRgdgJhG+DowbxYBpdyMQ+KO4rbzCdwYLAHzzYEmlvT8GIU8Ars0zCaSTzor1AjUklQzNlMOIYYZKi5A6WjOrIDA7iaJ8ahLng6xKhD4aGIr4beaBCA/uQK8BTMqRZcLujGkb0XSthEdOFTP3I3k/CqB4hWyReQfYHS6dE2rS1ubA6skmEWxt6/ipk4e+J6sYgQU9zMTZaD0dgMtMoRfsxCEEKijGAdTGy8H6b0oVHfMveLEHx3chCh+yADIZZBZjjYuwxs4y9/qLUYK9dITX2yr8NIf1HGvm8MZSx8Okv4x02glu5ID1Jlva1B/YJ5byU+04A0aatI+NndzUSCFk8lC5SOJ6CoF/a9D3WHfZ6BMp5CmvTtfISYO8YiwSTQGi5BLsHwtuX5DhfXWGUc7s8RxOGeRbAdmadFcJMkRBg/SEWCrosTXPxcAuFuz7MKXMk4Dau7ihgd+2DYBxSzU//cKOGmUcF8tAvFvGbxCDM1S0SCAQ9ZgjhVC4PJcTilQ1SwOPnBOrwPhfqRuZmEZO/pz1HE4z0o5DndiFwRvgfpUDppI3wQhf39y+Aa2yjhCDHD9bJSbhhOvaIe6Y9xONV96rcHm+/rmZZmkiALgX6roXFxhMHUCojBPNKkTeNh7/cZhpPtOFA92gDwkUUwk0jq72eExmfmjfrN401QhM76OKzChdBMbhkNO79iYdwqICIvlYN5jVYvZvkDk6BZKK0txGqFm+Jg7xyE4pnQSLkBFK80hCrK3W1fTw19jJrsE27krgPdTcDekXFojX2kSvhZ4lDfFoCIbx7wGnfi14GDDV+zL41Utv7YOzwHrnyKPCEi4Y0M2aswnV0P+58/wzSrGKlP+quScQ34SOt/IukW0AoYsXMB9e1pSvaOwjqISDlSfe9cujghtp5X81dBpfUcBgA="
+            class="left"
+          /><strong style="padding: 0.3em">Biometrics</strong
+          ><a
+            class="wb-lbx wb-lbx-inited"
+            title="Help - Biometrics"
+            onclick="helpModal('helpbiometricstatus')"
+            href="javascript:void(0)"
+            ><span
+              class="fa fa-lg fa-question-circle"
+              aria-hidden="true"
+            ></span>
+            <span class="wb-inv">Help - Biometrics</span></a
+          >
+          <section
+            id="helpbiometricstatus"
+            class="mfp-hide modal-dialog modal-content overlay-def"
+          >
+            <header class="modal-header">
+              <h3 class="modal-title">Biometrics</h3>
+            </header>
+            <div class="modal-body">
+              <p>
+                We need biometrics (fingerprints and photograph) from
+                <a href="https://www.cic.gc.ca/english/visit/biometrics.asp"
+                  >citizens from some countries</a
+                >.
+              </p>
+              <p>
+                If we need your biometrics, we will send you a message in your
+                account telling you how to submit biometrics.&nbsp;
+              </p>
+            </div>
+          </section>
+          <ul style="list-style-type: circle">
+            <li>January&nbsp;4,&nbsp;2023 Completed.</li>
+          </ul>
+        </div>
+        <div class="clearfix"></div>
+        <div>
+          <img
+            src="data:image/webp;base64,UklGRtICAABXRUJQVlA4TMUCAAAvHUAHEF/GoG0bQeYP+f/W0GDYtm0Y/n/y1lgM27YNw/9P3hoLgmS7bRv8D7C6+/6HtNMjEkBAtqGSSoAKFSpBIipCqwQrASuvpNJKKkGCQOUVKwAV706rqGybVoAjK+K/qhjbFrKqd0cAX9su771SrW0CVKNa22Yld2dAtataOfq2XSkUDawOLKxtZZu99wDbxorvvVYFHGPbxt52Bqq1LXH+/9/hmNus+qie1a5YSSUw/CC29Uqg2w5cgOqzulWJn20VZ5RtXv3e3Rl6dwf8vefVs/K7a5VA8b8NaNsc+d6r1UT5vk+3zWphb7tv+6sEgUTc3aVqFWH4Rlas8u6wDXc3MLcdFau2TbAqq1r12nYDYNvi//8CQisC0CoR8KqBVcCqgFXEURUAqBIFqASJwEYHKkEiEXB0AAAg0bZtY29WattGaiO129S2beuvm9q2bdt2/3+91n+/8AEi+q+wbdtGspOOT8gTNp6089iN/RnDq2bp1HLXb1X15erqmXf8O/XDlRN3fqh3OmfWBXE9ObgCUH/idX3dI7pj436cQGDZLQnfNo9qvWd+Swco2KIEwDo9kz+CDTodoO9tnw4D8h3RQWErvvBaEaD8A/VNbaDZJw+G9NEpAGmq9gY45PtKAQu1PUDqVzXRCmCapgVs8m9pAFbFTWwFoJeODNjsv1Ik2WF29xQAeuqIgJUm6kKxUbFYP9rFYuPKwGjtFjBGh8Ba9VaV8+oOyPBXakCdL+6FU6rnVC9Q7omXCD3gz07JmMwSnRdBx7g3a24L+3Npl2/eqxwBG/Vi07kPVb06IP2ZbifKkmf18dRaAxevmNm1yfrP6v/5kal2WH2+b/myNUf/qGp8UWQKzHlk6OXJd9V49JEaM05/Vx/uHlqItncz/wSKNmzUgCTb3A0+s2rSMT4rm3lVPIsJPu8Xzjq03nO8P9kVAA=="
+            class="left"
+          /><strong style="padding: 0.3em">Background check</strong
+          ><a
+            class="wb-lbx wb-lbx-inited"
+            title="Help - Background check"
+            onclick="helpModal('helpEEBackgroundInformation')"
+            href="javascript:void(0)"
+            ><span
+              class="fa fa-lg fa-question-circle"
+              aria-hidden="true"
+            ></span>
+            <span class="wb-inv">Help - Background check</span></a
+          >
+          <section
+            id="helpEEBackgroundInformation"
+            class="mfp-hide modal-dialog modal-content overlay-def"
+          >
+            <header class="modal-header">
+              <h3 class="modal-title">Background check</h3>
+            </header>
+            <div class="modal-body">
+              <p>
+                In some cases, we need to verify criminal, security and/or other
+                background information to make sure you are admissible to
+                Canada. &nbsp;If we need more information from you, we will send
+                you a message.
+              </p>
+            </div>
+          </section>
+          <ul style="list-style-type: circle">
+            <li>
+              We are processing your background check. We will send you a
+              message if we need more information.
+            </li>
+          </ul>
+        </div>
+        <div class="clearfix"></div>
+        <div>
+          <img
+            src="data:image/webp;base64,UklGRrACAABXRUJQVlA4TKQCAAAvHUAHEO8FqY0kQZL5493X9HTG7h0Jx23bCBL7r/deNxvLcds2gsT+673XzcZy5EaSImXk9DLz/9+2V+bdgao9gLZRaZurRFa6d4YB+F9VI857/QpQeRsABaDgWlXw8//3KoOKba469O+dQBX3DhjGABVO1RR+/v8evK1X5ft9YHbvmmq+7bMNdFWpEm01rNhmGL97N94mlHvHNsHoAaze77siEe/3TSrdOyptG927PzYYVafz3nCb4G2BaXWvJuhVsQ18q1nVoa221e/5/6fgvDc+7wmGP7/fAJOq20ZVVwDUWG4TugpENa6MGcDx3i3Atl5VI6ohCipQfd/vG29zJSQMbwNUqgYAvW2BDoFEjdx2ANWtGp73JqASEmWbKldCrzJqZAUAAL1KyH9okQgkOqwAMEi0bdvYmxPbtvHHtp3atm2ktpvablIz9nm6e+/PF9gnov8TQE69do1jnohjnj11hHvqu7ep7vbyXtI/y4J7i7ztEtnHxjORNpSvqKX0Wzx3rHMacnyObyZT5coaQ+k/Htr6kn8vIN+pGR+a/4dfrfoh/5t061n9WE3wmxQQ6j+xulPXrdwvJhNK+pVluu3yXO6GEoCAsQl/AhB6ml/wYU3a1y/ZD+ZalcBRCVQK/w6kPOIGZR9voS6+bd1BXk0L5ZI7oWz4Qxh5XuEOAoJ5OIiAyrn3IeR5g9uo4jofmSeylx9XKQJCyx2+uA44wQ/bj7L5MiFKc0jMfXVDhrluQgFLEqFxyDDbTEt/ab5vIA0IWPxN83M5AVnbzl44t6uIAOTokLH51PmTmzLJVgtLrmJvC4vFEXkOymeBi0T07rnKcm13T7g9PHZ8ZuPARg+b3A6w1fttSnw9OD48q2BkfPBNgi2AV3x0bJyIxETFe5EZ"
+            class="left"
+          /><strong style="padding: 0.3em">Final decision</strong
+          ><a
+            class="wb-lbx wb-lbx-inited"
+            title="Help - Final decision"
+            onclick="helpModal('helpfinaldecision')"
+            href="javascript:void(0)"
+            ><span
+              class="fa fa-lg fa-question-circle"
+              aria-hidden="true"
+            ></span>
+            <span class="wb-inv">Help - Final decision</span></a
+          >
+          <section
+            id="helpfinaldecision"
+            class="mfp-hide modal-dialog modal-content overlay-def"
+          >
+            <header class="modal-header">
+              <h3 class="modal-title">Final decision</h3>
+            </header>
+            <div class="modal-body">
+              <p>The final decision tells you when your application is:</p>
+              <ul>
+                <li>in progress,</li>
+                <li>approved,</li>
+                <li>not approved because it was incomplete,</li>
+                <li>refused,</li>
+                <li>withdrawn,&nbsp;</li>
+                <li>cannot be withdrawn, or</li>
+                <li>cancelled.</li>
+              </ul>
+              <p>
+                When a final decision is made on your application, you will get
+                a message in your account with more information and instructions
+                on what to do next.&nbsp;
+              </p>
+              <p>
+                If &nbsp;you see that your application cannot be withdrawn, it
+                means that we received your request to withdraw your application
+                after we made a decision on it. &nbsp;In these cases you cannot
+                withdraw your application.&nbsp;
+              </p>
+              <p>
+                If you see that your application was cancelled, it means that
+                before we made a final decision, we:&nbsp;
+              </p>
+              <ul>
+                <li>made a mistake and had to recreate your application</li>
+                <li>
+                  found that you do not need the status/document you applied
+                  for.&nbsp;
+                </li>
+              </ul>
+              <p>
+                If you think we should not have cancelled your application, let
+                us know by using the
+                <a href="http://www.cic.gc.ca/english/contacts/web-form.asp"
+                  >IRCC web form</a
+                >.
+              </p>
+            </div>
+          </section>
+          <ul style="list-style-type: circle">
+            <li>
+              Your application is in progress. We will send you a message once
+              the final decision has been made.
+            </li>
+          </ul>
+        </div>
+        <div class="clearfix"></div>
+        <h2>Messages about your application</h2>
+        <script>
+          var messageDashboardTableActive = true;
+        </script>
+        <div class="table-responsive mycic-table-visible-overflow">
+          <table
+            id="messageDashboardTable"
+            class="dataTable table table-hover table-striped table-condensed table-bordered"
+          >
+            <caption lang="en" class="wb-inv">
+              Correspondence
+            </caption>
+            <thead>
+              <tr class="dataGrid">
+                <th scope="col">Subject</th>
+                <th scope="col">Date sent</th>
+                <th scope="col">Date read</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <a
+                    href="https://onlineservices-servicesenligne.cic.gc.ca/mycic/accessLetter?id=116881340&attachName=caa116881340_d7585_t1670291728865_DdOKtu.pdf"
+                    onclick="updateMessageViewDate('/mycic/dashboard/messages/116881340','184045732') "
+                    >Submission Confirmation</a
+                  >
+                </td>
+                <td>
+                  <span class="wb-inv" aria-hidden="true">1670291728860</span>
+                  December&nbsp;6,&nbsp;2022
+                </td>
+                <td id="msgViewedDate184045732">
+                  <span class="wb-inv" aria-hidden="true">1670291800337</span>
+                  December&nbsp;6,&nbsp;2022
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    href="https://onlineservices-servicesenligne.cic.gc.ca/mycic/accessLetter?id=116881340&attachName=caa116881340_d8154_t1670354504899_vyWfKi.pdf"
+                    onclick="updateMessageViewDate('/mycic/dashboard/messages/116881340','184161176') "
+                    >Biometrics Collection Letter</a
+                  >
+                </td>
+                <td>
+                  <span class="wb-inv" aria-hidden="true">1670354504897</span>
+                  December&nbsp;6,&nbsp;2022
+                </td>
+                <td id="msgViewedDate184161176">
+                  <span class="wb-inv" aria-hidden="true">1670375244433</span>
+                  December&nbsp;7,&nbsp;2022
+                </td>
+              </tr>
+              <!-- <tr>
+                <td>
+                  <a
+                    href="https://onlineservices-servicesenligne.cic.gc.ca/mycic/accessLetter?id=116881340&attachName=caa116881340_d7588_t1676509772116_EhrdGY.pdf"
+                    onclick="updateMessageViewDate('/mycic/dashboard/messages/116881340','193613626') "
+                    >Request letter</a
+                  >
+                </td>
+                <td>
+                  <span class="wb-inv" aria-hidden="true">1676509772120</span>
+                  February&nbsp;16,&nbsp;2023
+                </td>
+                <td id="msgViewedDate193613626">
+                  <span class="wb-inv" aria-hidden="true">1676510151477</span>
+                  February&nbsp;16,&nbsp;2023
+                </td>
+              </tr> -->
+              <tr>
+                <td>
+                  <a
+                    href="https://onlineservices-servicesenligne.cic.gc.ca/mycic/accessLetter?id=116881340&attachName=caa116881340_d7620_t1676857912203_itcglf.pdf"
+                    onclick="updateMessageViewDate('/mycic/dashboard/messages/116881340','194177508') "
+                    >Medical Report - Section A Client identification and
+                    summary (IMM 1017E)</a
+                  >
+                </td>
+                <td>
+                  <span class="wb-inv" aria-hidden="true">1676857912190</span>
+                  February&nbsp;20,&nbsp;2023
+                </td>
+                <td id="msgViewedDate194177508">
+                  <span class="wb-inv" aria-hidden="true">1676858428230</span>
+                  February&nbsp;20,&nbsp;2023
+                </td>
+              </tr>
+              <!-- <tr>
+                <td>
+                  <a
+                    href="https://onlineservices-servicesenligne.cic.gc.ca/mycic/accessLetter?id=116881340&attachName=caa116881340_d7588_t1679468035263_klzkcu.pdf"
+                    onclick="updateMessageViewDate('/mycic/dashboard/messages/116881340','198998303') "
+                    >Request letter</a
+                  >
+                </td>
+                <td>
+                  <span class="wb-inv" aria-hidden="true">1679468035270</span>
+                  March&nbsp;22,&nbsp;2023
+                </td>
+                <td id="msgViewedDate198998303">
+                  <span class="wb-inv" aria-hidden="true">1679469375830</span>
+                  March&nbsp;22,&nbsp;2023
+                </td>
+              </tr> -->
+              <tr>
+                <td>
+                  <a
+                    href="javascript:void(0);"
+                    class="wb-lbx wb-lbx-inited"
+                    onclick="openMessageModal('/mycic/dashboard/messages/116881340','184045648')"
+                    ><p>Confirmation of Online Application Transmission</p></a
+                  >
+                  <section
+                    id="msg184045648"
+                    class="modal-dialog modal-content overlay-def mfp-hide"
+                  >
+                    <header class="modal-header">
+                      <h3 class="modal-title">
+                        <p>Confirmation of Online Application Transmission</p>
+                      </h3>
+                    </header>
+                    <div class="modal-body">
+                      <p>Hello,</p>
+                      <p>
+                        You have successfully transmitted your Online
+                        Application on 5&nbsp;December&nbsp;2022
+                        08:54:46&nbsp;p.m.&nbsp;<abbr
+                          title="Eastern Standard Time"
+                          ><span title="Eastern Standard Time">EST</span></abbr
+                        >.
+                      </p>
+                      <p>
+                        Your payment receipt number is #
+                        <a
+                          href="https://onlineservices-servicesenligne.cic.gc.ca/eapp/getCICReceipt?id=O615219372"
+                          >O615219372</a
+                        >.
+                      </p>
+                      <p><strong>What happens next?</strong></p>
+                      <p>
+                        We will review the information and documents that you
+                        provided and processing will begin.
+                      </p>
+                      <p>
+                        We will notify you by e-mail if we require additional
+                        information or documents. You do not need to log into
+                        your account to check for messages or updates until you
+                        receive an e-mail advising you that you have one. .
+                      </p>
+                      <p>
+                        <strong
+                          >What if information regarding my application
+                          changes?</strong
+                        >
+                      </p>
+                      <p>
+                        It is your responsibility to notify us of any changes to
+                        your application. Examples of changes include if you
+                        move, get a new phone number, etc.
+                      </p>
+                      <p>
+                        <strong
+                          >How long will it take to process my
+                          application?</strong
+                        >
+                      </p>
+                      <p>
+                        Processing times vary.
+                        <a
+                          href="https://www.cic.gc.ca/english/information/times/index.asp"
+                          >Find out what the average processing times are</a
+                        >.
+                      </p>
+                      <p>
+                        If you require additional information on the status of
+                        your application after consulting the processing times,
+                        contact the
+                        <a href="mailto:Question@cic.gc.ca">Call Centre</a>.
+                      </p>
+                    </div>
+                  </section>
+                </td>
+                <td>
+                  <span class="wb-inv" aria-hidden="true">1670291686370</span>
+                  December&nbsp;6,&nbsp;2022
+                </td>
+                <td id="msgViewedDate184045648">
+                  <span class="wb-inv" aria-hidden="true">1670291723917</span>
+                  December&nbsp;6,&nbsp;2022
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <!-- #messageDashboardTable .table .table-hover .dataTable -->
+        </div>
+        <!-- .table-responsive -->
+        <!-- IMPORTANT NOTE: 
+	 The "Applicant Information" section being displayed below is also displayed in the status dash board (statusDashboard.jsp) section; however,
+     this section is only rendered if the device rendering the status page is a mobile device, hence the reason the CSS class "visible-xs" is applied to it. If
+     the device rendering the page is tablet or desktop the "Applicant Information" section in the status dashboard section will be displayed, and this section will be hidden,
+     and vice versa. This is a bit of a hack, but this is what the business department has requested. -->
+        <div class="visible-xs">
+          <section class="panel panel-default dashboard-panel">
+            <div class="panel-heading">
+              <h2 class="panel-title">Applicant information</h2>
+            </div>
+            <div class="panel-body">
+              <ul class="list-unstyled">
+                <li><strong>Principal Applicant:</strong> Miao Shan</li>
+                <li>
+                  <strong>Unique Client Identifier (UCI):</strong> 1123808861
+                </li>
+                <li><strong>Application number:</strong> W307755777</li>
+                <li>
+                  <strong>Date Received:</strong> December&nbsp;6,&nbsp;2022
+                </li>
+                <li>
+                  <strong>Biometrics:</strong>
+                  <ul class="list-unstyled mrgn-lft-lg">
+                    <li>
+                      <strong>Biometrics Number:</strong> 00039220230104100532
+                    </li>
+                    <li>
+                      <strong>Date of Biometrics Enrolment:</strong>
+                      January&nbsp;4,&nbsp;2023
+                    </li>
+                    <li>
+                      <strong>Expiry Date:</strong> January&nbsp;4,&nbsp;2033
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </div>
+        <div class="pagedetails">
+          <div>
+            <a href="/mycic/reportTechnicalIssue" class="btn btn-default"
+              >Report a problem or mistake on this page</a
+            >
+          </div>
+        </div>
+        <div class="pagedetails">
+          <dl id="wb-dtmd">
+            <dt>Date modified:&#32;</dt>
+            <dd><time property="dateModified">2023-04-14</time></dd>
+          </dl>
+        </div>
+        <!-- End - Main content -->
+      </main>
+      <!-- Start - Footer -->
+      <footer role="contentinfo" id="wb-info">
+        <div class="landscape">
+          <nav role="navigation" class="container wb-navcurr">
+            <h2 class="wb-inv">About government</h2>
+            <ul class="list-unstyled colcount-sm-2 colcount-md-3">
+              <li>
+                <a
+                  href="/mycic/exit?logout=true&amp;uri=https://www.canada.ca/en/contact.html"
+                  >Contact us</a
+                >
+              </li>
+              <li>
+                <a
+                  href="/mycic/exit?logout=true&amp;uri=https://www.canada.ca/en/government/dept.html"
+                  >Departments and agencies</a
+                >
+              </li>
+              <li>
+                <a
+                  href="/mycic/exit?logout=true&amp;uri=https://www.canada.ca/en/government/publicservice.html"
+                  >Public service and military</a
+                >
+              </li>
+              <li>
+                <a
+                  href="/mycic/exit?logout=true&amp;uri=https://www.canada.ca/en/news.html"
+                  >News</a
+                >
+              </li>
+              <li>
+                <a
+                  href="/mycic/exit?logout=true&amp;uri=https://www.canada.ca/en/government/system/laws.html"
+                  >Treaties, laws and regulations</a
+                >
+              </li>
+              <li>
+                <a
+                  href="/mycic/exit?logout=true&amp;uri=https://www.canada.ca/en/transparency/reporting.html"
+                  >Government-wide reporting</a
+                >
+              </li>
+              <li>
+                <a href="/mycic/exit?logout=true&amp;uri=https://pm.gc.ca/en"
+                  >Prime Minister</a
+                >
+              </li>
+              <li>
+                <a
+                  href="/mycic/exit?logout=true&amp;uri=https://www.canada.ca/en/government/system.html"
+                  >About government</a
+                >
+              </li>
+              <li>
+                <a
+                  href="/mycic/exit?logout=true&amp;uri=https://open.canada.ca/en/"
+                  >Open government</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="brand">
+          <div class="container">
+            <div class="row">
+              <nav role="navigation" class="col-md-9 col-lg-10 ftr-urlt-lnk">
+                <h2 class="wb-inv">About this site</h2>
+                <ul>
+                  <li>
+                    <a
+                      href="/mycic/exit?logout=true&amp;uri=https://www.canada.ca/en/social.html"
+                      >Social media</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="/mycic/exit?logout=true&amp;uri=https://www.canada.ca/en/mobile.html"
+                      >Mobile applications</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="/mycic/exit?logout=true&amp;uri=https://www1.canada.ca/en/newsite.html"
+                      >About Canada.ca</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="/mycic/exit?logout=true&amp;uri=https://www.canada.ca/en/transparency/terms.html"
+                      >Terms and conditions</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="/mycic/exit?logout=true&amp;uri=https://www.canada.ca/en/transparency/privacy.html"
+                      >Privacy</a
+                    >
+                  </li>
+                </ul>
+              </nav>
+              <div class="col-xs-6 visible-sm visible-xs tofpg">
+                <a href="#wb-cont"
+                  >Top of page
+                  <span class="glyphicon glyphicon-chevron-up"></span
+                ></a>
+              </div>
+              <div class="col-xs-6 col-md-3 col-lg-2 text-right">
+                <img
+                  src="./resource/gcweb/assets/wmms-blk.svg"
+                  alt="Symbol of the Government of Canada"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End - Footer -->
+      </footer>
+      <!-- Add icons -->
+      <script>
+        function mycicAddIcons() {
+          if (!$("html").hasClass("lt-ie9")) {
+            $("img.question-error-indicator").replaceWith(
+              '<i class="question-error-indicator icon icon-next" aria-hidden="true"></i><i class="question-error-indicator-text wb-inv">Problematic field:</i>'
+            );
+            $("img.table-error-indicator").replaceWith(
+              '<i class="table-error-indicator icon icon-next" aria-hidden="true"></i><i class="table-error-indicator-text wb-inv">Problematic field:</i>'
+            );
+          }
+        }
+      </script>
+      <!-- IE8 - Government of Canada image -->
+      <script>
+        function mycicIE8AddPngLogo() {
+          if ($("html").hasClass("lt-ie9")) {
+            $("object[aria-label='Government of Canada']").replaceWith(
+              '<img alt="Government of Canada" src="./resource/gcweb/assets/sig-blk-en.png" width="425" height="40">'
+            );
+            $("object[aria-label='Gouvernement du Canada']").replaceWith(
+              '<img alt="Gouvernement du Canada" src="./resource/gcweb/assets/sig-blk-fr.png" width="425" height="40">'
+            );
+          }
+        }
+      </script>
+    </div>
+    <!-- Start - Scripts -->
+    <script src="./resource/wet-boew/js/4.0.10/wet-boew.min.js.pagespeed.jm.c40eAmf-QS.js"></script>
+    <script src="./resource/js/gcweb-menu.js.pagespeed.jm._ET9H1s6vB.js"></script>
+    <!-- End - Scripts -->
+    <!-- Start - Custom scripts -->
+    <!-- Use this for post-WET js -->
+    <script src="./resource/js/jquery.dataTables.js.pagespeed.jm.Oxh5fi3LZW.js"></script>
+    <script src="./resource/js/common.js"></script>
+    <script>
+      eval(mod_pagespeed_4YQ8hb$M1x);
+    </script>
+    <script>
+      eval(mod_pagespeed_H8qETAWJZG);
+    </script>
+    <script>
+      eval(mod_pagespeed_5EGMCfer3u);
+    </script>
+    <script>
+      eval(mod_pagespeed_y2osfPcsx4);
+    </script>
+    <script>
+      eval(mod_pagespeed_ioLcqZ_RJF);
+    </script>
+    <script>
+      eval(mod_pagespeed_5qUYGeDkyd);
+    </script>
+    <!-- End - Custom scripts -->
+    <script src="./resource/wet-boew/js/4.0.10/rowGrouping/jquery.dataTables.rowGrouping.js.pagespeed.jm.8Ogszyqoek.js"></script>
+    <!-- progress spinner -->
+    <section id="progress-spinner-modal" class="mfp-hide overlay-def">
+      <div style="height: 100px">
+        <div
+          id="progress-spinner-center"
+          style="position: fixed; top: 50%; left: 50%; z-index: 1000"
+        ></div>
+      </div>
+    </section>
+    <!-- Session timeout -->
+    <script>
+      var progressSpinner = new ProgressSpinner();
+      $(document).on("click", ".progress-spinner", function () {
+        progressSpinner.start();
+      });
+      function relog() {
+        var newloc = location.hostname;
+        newloc = newloc.replace(/.cic.gc.ca/, "-cic.fjgc-gccf.gc.ca");
+        newloc = newloc.replace(/.ci.gc.ca/, "-cic.fjgc-gccf.gc.ca");
+        location.replace("https://" + newloc + "/mycic/gccf?relog");
+        return false;
+      }
+    </script>
+    <span
+      class="wb-sessto"
+      data-wb-sessto='{"inactivity": 1200000, "reactionTime": 120000, "sessionalive": 1200000, 
+	"logouturl": "javascript:relog()", "refreshCallbackUrl": "/mycic/sessionAlive", "refreshOnClick": true, "refreshLimit": 30000}'
+    ></span>
+  </body>
+</html>
